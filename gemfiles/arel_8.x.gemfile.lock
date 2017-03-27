@@ -1,0 +1,36 @@
+PATH
+  remote: ..
+  specs:
+    arel-is-blank (1.0.0)
+      arel (>= 6.0)
+      arel-to-sql (~> 1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    appraisal (2.1.0)
+      bundler
+      rake
+      thor (>= 0.14.0)
+    arel (8.0.0)
+    arel-to-sql (1.0.0)
+      arel (>= 6.0)
+    power_assert (1.0.1)
+    rake (12.0.0)
+    test-unit (3.2.3)
+      power_assert
+    thor (0.19.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  appraisal (~> 2.1)
+  arel (~> 8.0)
+  arel-is-blank!
+  bundler (~> 1.7)
+  rake (~> 12.0)
+  test-unit (~> 3.2)
+
+BUNDLED WITH
+   1.14.3

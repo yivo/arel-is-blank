@@ -1,0 +1,10 @@
+language: ruby
+
+rvm:
+  - 2.4.0
+
+cache: bundler
+
+gemfile:
+  - gemfiles/arel_6.x.gemfile
+  - gemfiles/arel_8.x.gemfile
